@@ -1,0 +1,19 @@
+# HTTPS automatique (Let's Encrypt) devant l'application.
+# SITE_ADDRESS : l'IP publique du serveur (ex. 203.0.113.10) ou un nom de domaine.
+# Les certificats pour une IP exigent le profil « shortlived » (≈ 6 jours,
+# renouvelés automatiquement par Caddy). Pour un domaine, « classic » suffit.
+# HTTP (port 80) est redirigé vers HTTPS ; le port 80 sert aussi à la validation.
+{$SITE_ADDRESS} {
+	tls {
+		issuer acme {
+			profile {$ACME_PROFILE:shortlived}
+		}
+	}
+
+	encode gzip
+
+	# HSTS, CSP, anti-iframe, etc. : voir security-headers.caddy
+	import security-headers.caddy
+
+	reverse_proxy frontend:80
+}

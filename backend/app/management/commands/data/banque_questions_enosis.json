@@ -1,0 +1,4369 @@
+{
+  "sections": [
+    {
+      "id": "excellence",
+      "name": "Execute with Excellence",
+      "source": "Excel",
+      "provisional": false,
+      "versions": [
+        {
+          "version": 1,
+          "questions": [
+            {
+              "questionNumber": 1,
+              "text": "Face à un objectif ambitieux, comment organisez-vous vos priorités ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 19.35,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 60
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 60
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 20
+                }
+              ]
+            },
+            {
+              "questionNumber": 2,
+              "text": "Une erreur est découverte juste avant une échéance. Quelle est votre réaction ?",
+              "weight": 1.1,
+              "weightPercentOfSection": 17.74,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 60
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 40
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 20
+                }
+              ]
+            },
+            {
+              "questionNumber": 3,
+              "text": "Quand un processus ralentit l’équipe, que faites-vous en premier ?",
+              "weight": 1.1,
+              "weightPercentOfSection": 17.74,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 60
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 20
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 0
+                }
+              ]
+            },
+            {
+              "questionNumber": 4,
+              "text": "Comment vous assurez-vous de la qualité d’un livrable ?",
+              "weight": 0.8,
+              "weightPercentOfSection": 12.9,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 20
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 40
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 70
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 100
+                }
+              ]
+            },
+            {
+              "questionNumber": 5,
+              "text": "Un résultat est inférieur à l’objectif. Quelle action prenez-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 19.35,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 20
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 0
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 40
+                }
+              ]
+            },
+            {
+              "questionNumber": 6,
+              "text": "Deux urgences importantes arrivent en même temps. Comment arbitrez-vous ?",
+              "weight": 0.8,
+              "weightPercentOfSection": 12.9,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 20
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 40
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 70
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 100
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "questions": [
+            {
+              "questionNumber": 1,
+              "text": "Face à un objectif ambitieux, comment organisez-vous vos priorités ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 18.46,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 60
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 20
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 0
+                }
+              ]
+            },
+            {
+              "questionNumber": 2,
+              "text": "Une erreur est découverte juste avant une échéance. Quelle est votre réaction ?",
+              "weight": 1.1,
+              "weightPercentOfSection": 16.92,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 20
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 60
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 40
+                }
+              ]
+            },
+            {
+              "questionNumber": 3,
+              "text": "Quand un processus ralentit l’équipe, que faites-vous en premier ?",
+              "weight": 1.1,
+              "weightPercentOfSection": 16.92,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 40
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 0
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 60
+                }
+              ]
+            },
+            {
+              "questionNumber": 4,
+              "text": "Comment vous assurez-vous de la qualité d’un livrable ?",
+              "weight": 1.1,
+              "weightPercentOfSection": 16.92,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 40
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 60
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 20
+                }
+              ]
+            },
+            {
+              "questionNumber": 5,
+              "text": "Un résultat est inférieur à l’objectif. Quelle action prenez-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 18.46,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 60
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 20
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 0
+                }
+              ]
+            },
+            {
+              "questionNumber": 6,
+              "text": "Deux urgences importantes arrivent en même temps. Comment arbitrez-vous ?",
+              "weight": 0.8,
+              "weightPercentOfSection": 12.31,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 20
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 40
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 70
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 100
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "version": 3,
+          "questions": [
+            {
+              "questionNumber": 1,
+              "text": "Face à un objectif ambitieux, comment organisez-vous vos priorités ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 19.35,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 60
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 0
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 40
+                }
+              ]
+            },
+            {
+              "questionNumber": 2,
+              "text": "Une erreur est découverte juste avant une échéance. Quelle est votre réaction ?",
+              "weight": 1.1,
+              "weightPercentOfSection": 17.74,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 40
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 60
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 20
+                }
+              ]
+            },
+            {
+              "questionNumber": 3,
+              "text": "Quand un processus ralentit l’équipe, que faites-vous en premier ?",
+              "weight": 1.1,
+              "weightPercentOfSection": 17.74,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 60
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 20
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 0
+                }
+              ]
+            },
+            {
+              "questionNumber": 4,
+              "text": "Comment vous assurez-vous de la qualité d’un livrable ?",
+              "weight": 0.8,
+              "weightPercentOfSection": 12.9,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 20
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 40
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 70
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 100
+                }
+              ]
+            },
+            {
+              "questionNumber": 5,
+              "text": "Un résultat est inférieur à l’objectif. Quelle action prenez-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 19.35,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 0
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 40
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 20
+                }
+              ]
+            },
+            {
+              "questionNumber": 6,
+              "text": "Deux urgences importantes arrivent en même temps. Comment arbitrez-vous ?",
+              "weight": 0.8,
+              "weightPercentOfSection": 12.9,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 20
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 40
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 70
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 100
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "version": 4,
+          "questions": [
+            {
+              "questionNumber": 1,
+              "text": "Face à un objectif ambitieux, comment organisez-vous vos priorités ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 19.35,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 60
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 20
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 40
+                }
+              ]
+            },
+            {
+              "questionNumber": 2,
+              "text": "Une erreur est découverte juste avant une échéance. Quelle est votre réaction ?",
+              "weight": 1.1,
+              "weightPercentOfSection": 17.74,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 20
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 40
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 60
+                }
+              ]
+            },
+            {
+              "questionNumber": 3,
+              "text": "Quand un processus ralentit l’équipe, que faites-vous en premier ?",
+              "weight": 1.1,
+              "weightPercentOfSection": 17.74,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 0
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 60
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 40
+                }
+              ]
+            },
+            {
+              "questionNumber": 4,
+              "text": "Comment vous assurez-vous de la qualité d’un livrable ?",
+              "weight": 0.8,
+              "weightPercentOfSection": 12.9,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 20
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 40
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 70
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 100
+                }
+              ]
+            },
+            {
+              "questionNumber": 5,
+              "text": "Un résultat est inférieur à l’objectif. Quelle action prenez-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 19.35,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 20
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 40
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 60
+                }
+              ]
+            },
+            {
+              "questionNumber": 6,
+              "text": "Deux urgences importantes arrivent en même temps. Comment arbitrez-vous ?",
+              "weight": 0.8,
+              "weightPercentOfSection": 12.9,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 20
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 40
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 70
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 100
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "questions": [
+            {
+              "questionNumber": 1,
+              "text": "Face à un objectif ambitieux, comment organisez-vous vos priorités ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 19.35,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 40
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 20
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 60
+                }
+              ]
+            },
+            {
+              "questionNumber": 2,
+              "text": "Une erreur est découverte juste avant une échéance. Quelle est votre réaction ?",
+              "weight": 1.1,
+              "weightPercentOfSection": 17.74,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 20
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 0
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 40
+                }
+              ]
+            },
+            {
+              "questionNumber": 3,
+              "text": "Quand un processus ralentit l’équipe, que faites-vous en premier ?",
+              "weight": 1.1,
+              "weightPercentOfSection": 17.74,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 60
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 20
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 40
+                }
+              ]
+            },
+            {
+              "questionNumber": 4,
+              "text": "Comment vous assurez-vous de la qualité d’un livrable ?",
+              "weight": 0.8,
+              "weightPercentOfSection": 12.9,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 20
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 40
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 70
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 100
+                }
+              ]
+            },
+            {
+              "questionNumber": 5,
+              "text": "Un résultat est inférieur à l’objectif. Quelle action prenez-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 19.35,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 0
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 60
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 40
+                }
+              ]
+            },
+            {
+              "questionNumber": 6,
+              "text": "Deux urgences importantes arrivent en même temps. Comment arbitrez-vous ?",
+              "weight": 0.8,
+              "weightPercentOfSection": 12.9,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 20
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 40
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 70
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 100
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "courage",
+      "name": "Lead with Courage",
+      "source": "Excel",
+      "provisional": false,
+      "versions": [
+        {
+          "version": 1,
+          "questions": [
+            {
+              "questionNumber": 1,
+              "text": "Une décision doit être prise avec des informations incomplètes. Que faites-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 16.67,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 70
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 85
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 40
+                }
+              ]
+            },
+            {
+              "questionNumber": 2,
+              "text": "Vous n’êtes pas d’accord avec une décision collective. Comment réagissez-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 16.67,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 75
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 90
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 45
+                }
+              ]
+            },
+            {
+              "questionNumber": 3,
+              "text": "Une initiative comporte un risque mesuré mais un fort potentiel. Quelle attitude adoptez-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 16.67,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 70
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 85
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 75
+                }
+              ]
+            },
+            {
+              "questionNumber": 4,
+              "text": "Vous constatez un problème que personne n’a encore signalé. Que faites-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 16.67,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 90
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 85
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 45
+                }
+              ]
+            },
+            {
+              "questionNumber": 5,
+              "text": "Une idée nouvelle rencontre de la résistance. Comment avancez-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 16.67,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 75
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 85
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 50
+                }
+              ]
+            },
+            {
+              "questionNumber": 6,
+              "text": "Après un échec visible, quelle est votre prochaine action ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 16.67,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 90
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 80
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 50
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "questions": [
+            {
+              "questionNumber": 1,
+              "text": "Une décision doit être prise avec des informations incomplètes. Que faites-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 18.75,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 75
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 90
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 45
+                }
+              ]
+            },
+            {
+              "questionNumber": 2,
+              "text": "Vous n’êtes pas d’accord avec une décision collective. Comment réagissez-vous ?",
+              "weight": 0.8,
+              "weightPercentOfSection": 12.5,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 20
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 45
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 75
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 100
+                }
+              ]
+            },
+            {
+              "questionNumber": 3,
+              "text": "Une initiative comporte un risque mesuré mais un fort potentiel. Quelle attitude adoptez-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 18.75,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 70
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 85
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 75
+                }
+              ]
+            },
+            {
+              "questionNumber": 4,
+              "text": "Vous constatez un problème que personne n’a encore signalé. Que faites-vous ?",
+              "weight": 0.8,
+              "weightPercentOfSection": 12.5,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 20
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 45
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 75
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 100
+                }
+              ]
+            },
+            {
+              "questionNumber": 5,
+              "text": "Une idée nouvelle rencontre de la résistance. Comment avancez-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 18.75,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 75
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 85
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 50
+                }
+              ]
+            },
+            {
+              "questionNumber": 6,
+              "text": "Après un échec visible, quelle est votre prochaine action ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 18.75,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 90
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 80
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 50
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "version": 3,
+          "questions": [
+            {
+              "questionNumber": 1,
+              "text": "Une décision doit être prise avec des informations incomplètes. Que faites-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 18.75,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 75
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 90
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 45
+                }
+              ]
+            },
+            {
+              "questionNumber": 2,
+              "text": "Vous n’êtes pas d’accord avec une décision collective. Comment réagissez-vous ?",
+              "weight": 0.8,
+              "weightPercentOfSection": 12.5,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 20
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 45
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 75
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 100
+                }
+              ]
+            },
+            {
+              "questionNumber": 3,
+              "text": "Une initiative comporte un risque mesuré mais un fort potentiel. Quelle attitude adoptez-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 18.75,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 70
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 85
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 75
+                }
+              ]
+            },
+            {
+              "questionNumber": 4,
+              "text": "Vous constatez un problème que personne n’a encore signalé. Que faites-vous ?",
+              "weight": 0.8,
+              "weightPercentOfSection": 12.5,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 20
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 45
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 75
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 100
+                }
+              ]
+            },
+            {
+              "questionNumber": 5,
+              "text": "Une idée nouvelle rencontre de la résistance. Comment avancez-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 18.75,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 50
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 85
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 70
+                }
+              ]
+            },
+            {
+              "questionNumber": 6,
+              "text": "Après un échec visible, quelle est votre prochaine action ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 18.75,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 90
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 80
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 50
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "version": 4,
+          "questions": [
+            {
+              "questionNumber": 1,
+              "text": "Une décision doit être prise avec des informations incomplètes. Que faites-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 18.75,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 75
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 90
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 45
+                }
+              ]
+            },
+            {
+              "questionNumber": 2,
+              "text": "Vous n’êtes pas d’accord avec une décision collective. Comment réagissez-vous ?",
+              "weight": 0.8,
+              "weightPercentOfSection": 12.5,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 20
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 45
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 75
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 100
+                }
+              ]
+            },
+            {
+              "questionNumber": 3,
+              "text": "Une initiative comporte un risque mesuré mais un fort potentiel. Quelle attitude adoptez-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 18.75,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 70
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 85
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 75
+                }
+              ]
+            },
+            {
+              "questionNumber": 4,
+              "text": "Vous constatez un problème que personne n’a encore signalé. Que faites-vous ?",
+              "weight": 0.8,
+              "weightPercentOfSection": 12.5,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 20
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 45
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 75
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 100
+                }
+              ]
+            },
+            {
+              "questionNumber": 5,
+              "text": "Une idée nouvelle rencontre de la résistance. Comment avancez-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 18.75,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 75
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 85
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 50
+                }
+              ]
+            },
+            {
+              "questionNumber": 6,
+              "text": "Après un échec visible, quelle est votre prochaine action ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 18.75,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 90
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 80
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 50
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "questions": [
+            {
+              "questionNumber": 1,
+              "text": "Une décision doit être prise avec des informations incomplètes. Que faites-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 18.75,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 75
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 90
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 45
+                }
+              ]
+            },
+            {
+              "questionNumber": 2,
+              "text": "Vous n’êtes pas d’accord avec une décision collective. Comment réagissez-vous ?",
+              "weight": 0.8,
+              "weightPercentOfSection": 12.5,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 20
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 45
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 75
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 100
+                }
+              ]
+            },
+            {
+              "questionNumber": 3,
+              "text": "Une initiative comporte un risque mesuré mais un fort potentiel. Quelle attitude adoptez-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 18.75,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 70
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 85
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 75
+                }
+              ]
+            },
+            {
+              "questionNumber": 4,
+              "text": "Vous constatez un problème que personne n’a encore signalé. Que faites-vous ?",
+              "weight": 0.8,
+              "weightPercentOfSection": 12.5,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 20
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 45
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 75
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 100
+                }
+              ]
+            },
+            {
+              "questionNumber": 5,
+              "text": "Une idée nouvelle rencontre de la résistance. Comment avancez-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 18.75,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 75
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 85
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 50
+                }
+              ]
+            },
+            {
+              "questionNumber": 6,
+              "text": "Après un échec visible, quelle est votre prochaine action ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 18.75,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 90
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 80
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 50
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "together",
+      "name": "Grow Together",
+      "source": "Provisoire",
+      "provisional": true,
+      "versions": [
+        {
+          "version": 1,
+          "questions": [
+            {
+              "questionNumber": 1,
+              "text": "Un collègue rencontre une difficulté sur un sujet critique. Que faites-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 19.35,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 45
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 75
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 30
+                }
+              ]
+            },
+            {
+              "questionNumber": 2,
+              "text": "Comment partagez-vous une information utile à plusieurs équipes ?",
+              "weight": 1.0,
+              "weightPercentOfSection": 16.13,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 50
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 75
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 37
+                }
+              ]
+            },
+            {
+              "questionNumber": 3,
+              "text": "Un conflit apparaît dans le groupe. Quelle est votre approche ?",
+              "weight": 1.1,
+              "weightPercentOfSection": 17.74,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 55
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 75
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 44
+                }
+              ]
+            },
+            {
+              "questionNumber": 4,
+              "text": "Comment contribuez-vous à la progression d’un collègue ?",
+              "weight": 0.9,
+              "weightPercentOfSection": 14.52,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 60
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 75
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 51
+                }
+              ]
+            },
+            {
+              "questionNumber": 5,
+              "text": "Votre succès dépend d’une autre équipe. Que faites-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 19.35,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 65
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 75
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 58
+                }
+              ]
+            },
+            {
+              "questionNumber": 6,
+              "text": "Comment célébrez-vous une réussite collective ?",
+              "weight": 0.8,
+              "weightPercentOfSection": 12.9,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 45
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 75
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 65
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "questions": [
+            {
+              "questionNumber": 1,
+              "text": "Un collègue rencontre une difficulté sur un sujet critique. Que faites-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 19.35,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 45
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 72
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 30
+                }
+              ]
+            },
+            {
+              "questionNumber": 2,
+              "text": "Comment partagez-vous une information utile à plusieurs équipes ?",
+              "weight": 1.0,
+              "weightPercentOfSection": 16.13,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 50
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 72
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 37
+                }
+              ]
+            },
+            {
+              "questionNumber": 3,
+              "text": "Un conflit apparaît dans le groupe. Quelle est votre approche ?",
+              "weight": 1.1,
+              "weightPercentOfSection": 17.74,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 55
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 72
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 44
+                }
+              ]
+            },
+            {
+              "questionNumber": 4,
+              "text": "Comment contribuez-vous à la progression d’un collègue ?",
+              "weight": 0.9,
+              "weightPercentOfSection": 14.52,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 60
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 72
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 51
+                }
+              ]
+            },
+            {
+              "questionNumber": 5,
+              "text": "Votre succès dépend d’une autre équipe. Que faites-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 19.35,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 65
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 72
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 58
+                }
+              ]
+            },
+            {
+              "questionNumber": 6,
+              "text": "Comment célébrez-vous une réussite collective ?",
+              "weight": 0.8,
+              "weightPercentOfSection": 12.9,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 45
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 72
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 65
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "version": 3,
+          "questions": [
+            {
+              "questionNumber": 1,
+              "text": "Un collègue rencontre une difficulté sur un sujet critique. Que faites-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 19.35,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 45
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 69
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 30
+                }
+              ]
+            },
+            {
+              "questionNumber": 2,
+              "text": "Comment partagez-vous une information utile à plusieurs équipes ?",
+              "weight": 1.0,
+              "weightPercentOfSection": 16.13,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 50
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 69
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 37
+                }
+              ]
+            },
+            {
+              "questionNumber": 3,
+              "text": "Un conflit apparaît dans le groupe. Quelle est votre approche ?",
+              "weight": 1.1,
+              "weightPercentOfSection": 17.74,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 55
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 69
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 44
+                }
+              ]
+            },
+            {
+              "questionNumber": 4,
+              "text": "Comment contribuez-vous à la progression d’un collègue ?",
+              "weight": 0.9,
+              "weightPercentOfSection": 14.52,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 60
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 69
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 51
+                }
+              ]
+            },
+            {
+              "questionNumber": 5,
+              "text": "Votre succès dépend d’une autre équipe. Que faites-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 19.35,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 65
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 69
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 58
+                }
+              ]
+            },
+            {
+              "questionNumber": 6,
+              "text": "Comment célébrez-vous une réussite collective ?",
+              "weight": 0.8,
+              "weightPercentOfSection": 12.9,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 45
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 69
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 65
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "version": 4,
+          "questions": [
+            {
+              "questionNumber": 1,
+              "text": "Un collègue rencontre une difficulté sur un sujet critique. Que faites-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 19.35,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 45
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 66
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 30
+                }
+              ]
+            },
+            {
+              "questionNumber": 2,
+              "text": "Comment partagez-vous une information utile à plusieurs équipes ?",
+              "weight": 1.0,
+              "weightPercentOfSection": 16.13,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 50
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 66
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 37
+                }
+              ]
+            },
+            {
+              "questionNumber": 3,
+              "text": "Un conflit apparaît dans le groupe. Quelle est votre approche ?",
+              "weight": 1.1,
+              "weightPercentOfSection": 17.74,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 55
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 66
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 44
+                }
+              ]
+            },
+            {
+              "questionNumber": 4,
+              "text": "Comment contribuez-vous à la progression d’un collègue ?",
+              "weight": 0.9,
+              "weightPercentOfSection": 14.52,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 60
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 66
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 51
+                }
+              ]
+            },
+            {
+              "questionNumber": 5,
+              "text": "Votre succès dépend d’une autre équipe. Que faites-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 19.35,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 65
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 66
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 58
+                }
+              ]
+            },
+            {
+              "questionNumber": 6,
+              "text": "Comment célébrez-vous une réussite collective ?",
+              "weight": 0.8,
+              "weightPercentOfSection": 12.9,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 45
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 66
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 65
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "questions": [
+            {
+              "questionNumber": 1,
+              "text": "Un collègue rencontre une difficulté sur un sujet critique. Que faites-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 19.35,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 45
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 63
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 30
+                }
+              ]
+            },
+            {
+              "questionNumber": 2,
+              "text": "Comment partagez-vous une information utile à plusieurs équipes ?",
+              "weight": 1.0,
+              "weightPercentOfSection": 16.13,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 50
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 63
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 37
+                }
+              ]
+            },
+            {
+              "questionNumber": 3,
+              "text": "Un conflit apparaît dans le groupe. Quelle est votre approche ?",
+              "weight": 1.1,
+              "weightPercentOfSection": 17.74,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 55
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 63
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 44
+                }
+              ]
+            },
+            {
+              "questionNumber": 4,
+              "text": "Comment contribuez-vous à la progression d’un collègue ?",
+              "weight": 0.9,
+              "weightPercentOfSection": 14.52,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 60
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 63
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 51
+                }
+              ]
+            },
+            {
+              "questionNumber": 5,
+              "text": "Votre succès dépend d’une autre équipe. Que faites-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 19.35,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 65
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 63
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 58
+                }
+              ]
+            },
+            {
+              "questionNumber": 6,
+              "text": "Comment célébrez-vous une réussite collective ?",
+              "weight": 0.8,
+              "weightPercentOfSection": 12.9,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 45
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 63
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 65
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consumer",
+      "name": "Consumer at the Core",
+      "source": "Provisoire",
+      "provisional": true,
+      "versions": [
+        {
+          "version": 1,
+          "questions": [
+            {
+              "questionNumber": 1,
+              "text": "Une décision interne pourrait dégrader l’expérience client. Comment réagissez-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 19.35,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 45
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 75
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 30
+                }
+              ]
+            },
+            {
+              "questionNumber": 2,
+              "text": "Comment utilisez-vous un retour client négatif ?",
+              "weight": 1.0,
+              "weightPercentOfSection": 16.13,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 50
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 75
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 37
+                }
+              ]
+            },
+            {
+              "questionNumber": 3,
+              "text": "Deux solutions sont possibles. Comment choisissez-vous ?",
+              "weight": 1.1,
+              "weightPercentOfSection": 17.74,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 55
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 75
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 44
+                }
+              ]
+            },
+            {
+              "questionNumber": 4,
+              "text": "Le besoin exprimé par le client est ambigu. Que faites-vous ?",
+              "weight": 0.9,
+              "weightPercentOfSection": 14.52,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 60
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 75
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 51
+                }
+              ]
+            },
+            {
+              "questionNumber": 5,
+              "text": "Comment mesurez-vous la satisfaction réelle ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 19.35,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 65
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 75
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 58
+                }
+              ]
+            },
+            {
+              "questionNumber": 6,
+              "text": "Une urgence client perturbe votre planning. Comment arbitrez-vous ?",
+              "weight": 0.8,
+              "weightPercentOfSection": 12.9,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 45
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 75
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 65
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "questions": [
+            {
+              "questionNumber": 1,
+              "text": "Une décision interne pourrait dégrader l’expérience client. Comment réagissez-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 19.35,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 45
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 72
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 30
+                }
+              ]
+            },
+            {
+              "questionNumber": 2,
+              "text": "Comment utilisez-vous un retour client négatif ?",
+              "weight": 1.0,
+              "weightPercentOfSection": 16.13,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 50
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 72
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 37
+                }
+              ]
+            },
+            {
+              "questionNumber": 3,
+              "text": "Deux solutions sont possibles. Comment choisissez-vous ?",
+              "weight": 1.1,
+              "weightPercentOfSection": 17.74,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 55
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 72
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 44
+                }
+              ]
+            },
+            {
+              "questionNumber": 4,
+              "text": "Le besoin exprimé par le client est ambigu. Que faites-vous ?",
+              "weight": 0.9,
+              "weightPercentOfSection": 14.52,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 60
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 72
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 51
+                }
+              ]
+            },
+            {
+              "questionNumber": 5,
+              "text": "Comment mesurez-vous la satisfaction réelle ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 19.35,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 65
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 72
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 58
+                }
+              ]
+            },
+            {
+              "questionNumber": 6,
+              "text": "Une urgence client perturbe votre planning. Comment arbitrez-vous ?",
+              "weight": 0.8,
+              "weightPercentOfSection": 12.9,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 45
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 72
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 65
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "version": 3,
+          "questions": [
+            {
+              "questionNumber": 1,
+              "text": "Une décision interne pourrait dégrader l’expérience client. Comment réagissez-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 19.35,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 45
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 69
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 30
+                }
+              ]
+            },
+            {
+              "questionNumber": 2,
+              "text": "Comment utilisez-vous un retour client négatif ?",
+              "weight": 1.0,
+              "weightPercentOfSection": 16.13,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 50
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 69
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 37
+                }
+              ]
+            },
+            {
+              "questionNumber": 3,
+              "text": "Deux solutions sont possibles. Comment choisissez-vous ?",
+              "weight": 1.1,
+              "weightPercentOfSection": 17.74,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 55
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 69
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 44
+                }
+              ]
+            },
+            {
+              "questionNumber": 4,
+              "text": "Le besoin exprimé par le client est ambigu. Que faites-vous ?",
+              "weight": 0.9,
+              "weightPercentOfSection": 14.52,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 60
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 69
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 51
+                }
+              ]
+            },
+            {
+              "questionNumber": 5,
+              "text": "Comment mesurez-vous la satisfaction réelle ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 19.35,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 65
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 69
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 58
+                }
+              ]
+            },
+            {
+              "questionNumber": 6,
+              "text": "Une urgence client perturbe votre planning. Comment arbitrez-vous ?",
+              "weight": 0.8,
+              "weightPercentOfSection": 12.9,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 45
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 69
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 65
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "version": 4,
+          "questions": [
+            {
+              "questionNumber": 1,
+              "text": "Une décision interne pourrait dégrader l’expérience client. Comment réagissez-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 19.35,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 45
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 66
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 30
+                }
+              ]
+            },
+            {
+              "questionNumber": 2,
+              "text": "Comment utilisez-vous un retour client négatif ?",
+              "weight": 1.0,
+              "weightPercentOfSection": 16.13,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 50
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 66
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 37
+                }
+              ]
+            },
+            {
+              "questionNumber": 3,
+              "text": "Deux solutions sont possibles. Comment choisissez-vous ?",
+              "weight": 1.1,
+              "weightPercentOfSection": 17.74,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 55
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 66
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 44
+                }
+              ]
+            },
+            {
+              "questionNumber": 4,
+              "text": "Le besoin exprimé par le client est ambigu. Que faites-vous ?",
+              "weight": 0.9,
+              "weightPercentOfSection": 14.52,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 60
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 66
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 51
+                }
+              ]
+            },
+            {
+              "questionNumber": 5,
+              "text": "Comment mesurez-vous la satisfaction réelle ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 19.35,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 65
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 66
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 58
+                }
+              ]
+            },
+            {
+              "questionNumber": 6,
+              "text": "Une urgence client perturbe votre planning. Comment arbitrez-vous ?",
+              "weight": 0.8,
+              "weightPercentOfSection": 12.9,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 45
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 66
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 65
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "questions": [
+            {
+              "questionNumber": 1,
+              "text": "Une décision interne pourrait dégrader l’expérience client. Comment réagissez-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 19.35,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 45
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 63
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 30
+                }
+              ]
+            },
+            {
+              "questionNumber": 2,
+              "text": "Comment utilisez-vous un retour client négatif ?",
+              "weight": 1.0,
+              "weightPercentOfSection": 16.13,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 50
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 63
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 37
+                }
+              ]
+            },
+            {
+              "questionNumber": 3,
+              "text": "Deux solutions sont possibles. Comment choisissez-vous ?",
+              "weight": 1.1,
+              "weightPercentOfSection": 17.74,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 55
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 63
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 44
+                }
+              ]
+            },
+            {
+              "questionNumber": 4,
+              "text": "Le besoin exprimé par le client est ambigu. Que faites-vous ?",
+              "weight": 0.9,
+              "weightPercentOfSection": 14.52,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 60
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 63
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 51
+                }
+              ]
+            },
+            {
+              "questionNumber": 5,
+              "text": "Comment mesurez-vous la satisfaction réelle ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 19.35,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 65
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 63
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 58
+                }
+              ]
+            },
+            {
+              "questionNumber": 6,
+              "text": "Une urgence client perturbe votre planning. Comment arbitrez-vous ?",
+              "weight": 0.8,
+              "weightPercentOfSection": 12.9,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 45
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 63
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 65
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "integrity",
+      "name": "Act with Integrity",
+      "source": "Provisoire",
+      "provisional": true,
+      "versions": [
+        {
+          "version": 1,
+          "questions": [
+            {
+              "questionNumber": 1,
+              "text": "Vous identifiez une donnée incorrecte qui vous avantage. Que faites-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 19.35,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 45
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 75
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 30
+                }
+              ]
+            },
+            {
+              "questionNumber": 2,
+              "text": "Une règle semble ralentir le projet. Comment réagissez-vous ?",
+              "weight": 1.0,
+              "weightPercentOfSection": 16.13,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 50
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 75
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 37
+                }
+              ]
+            },
+            {
+              "questionNumber": 3,
+              "text": "Un engagement devient difficile à tenir. Quelle est votre approche ?",
+              "weight": 1.1,
+              "weightPercentOfSection": 17.74,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 55
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 75
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 44
+                }
+              ]
+            },
+            {
+              "questionNumber": 4,
+              "text": "Vous recevez une information confidentielle par erreur. Que faites-vous ?",
+              "weight": 0.9,
+              "weightPercentOfSection": 14.52,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 60
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 75
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 51
+                }
+              ]
+            },
+            {
+              "questionNumber": 5,
+              "text": "Un collègue propose un raccourci discutable. Comment répondez-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 19.35,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 65
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 75
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 58
+                }
+              ]
+            },
+            {
+              "questionNumber": 6,
+              "text": "Comment communiquez-vous une mauvaise nouvelle ?",
+              "weight": 0.8,
+              "weightPercentOfSection": 12.9,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 45
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 75
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 65
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "questions": [
+            {
+              "questionNumber": 1,
+              "text": "Vous identifiez une donnée incorrecte qui vous avantage. Que faites-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 19.35,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 45
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 72
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 30
+                }
+              ]
+            },
+            {
+              "questionNumber": 2,
+              "text": "Une règle semble ralentir le projet. Comment réagissez-vous ?",
+              "weight": 1.0,
+              "weightPercentOfSection": 16.13,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 50
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 72
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 37
+                }
+              ]
+            },
+            {
+              "questionNumber": 3,
+              "text": "Un engagement devient difficile à tenir. Quelle est votre approche ?",
+              "weight": 1.1,
+              "weightPercentOfSection": 17.74,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 55
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 72
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 44
+                }
+              ]
+            },
+            {
+              "questionNumber": 4,
+              "text": "Vous recevez une information confidentielle par erreur. Que faites-vous ?",
+              "weight": 0.9,
+              "weightPercentOfSection": 14.52,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 60
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 72
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 51
+                }
+              ]
+            },
+            {
+              "questionNumber": 5,
+              "text": "Un collègue propose un raccourci discutable. Comment répondez-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 19.35,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 65
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 72
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 58
+                }
+              ]
+            },
+            {
+              "questionNumber": 6,
+              "text": "Comment communiquez-vous une mauvaise nouvelle ?",
+              "weight": 0.8,
+              "weightPercentOfSection": 12.9,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 45
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 72
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 65
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "version": 3,
+          "questions": [
+            {
+              "questionNumber": 1,
+              "text": "Vous identifiez une donnée incorrecte qui vous avantage. Que faites-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 19.35,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 45
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 69
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 30
+                }
+              ]
+            },
+            {
+              "questionNumber": 2,
+              "text": "Une règle semble ralentir le projet. Comment réagissez-vous ?",
+              "weight": 1.0,
+              "weightPercentOfSection": 16.13,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 50
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 69
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 37
+                }
+              ]
+            },
+            {
+              "questionNumber": 3,
+              "text": "Un engagement devient difficile à tenir. Quelle est votre approche ?",
+              "weight": 1.1,
+              "weightPercentOfSection": 17.74,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 55
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 69
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 44
+                }
+              ]
+            },
+            {
+              "questionNumber": 4,
+              "text": "Vous recevez une information confidentielle par erreur. Que faites-vous ?",
+              "weight": 0.9,
+              "weightPercentOfSection": 14.52,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 60
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 69
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 51
+                }
+              ]
+            },
+            {
+              "questionNumber": 5,
+              "text": "Un collègue propose un raccourci discutable. Comment répondez-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 19.35,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 65
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 69
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 58
+                }
+              ]
+            },
+            {
+              "questionNumber": 6,
+              "text": "Comment communiquez-vous une mauvaise nouvelle ?",
+              "weight": 0.8,
+              "weightPercentOfSection": 12.9,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 45
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 69
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 65
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "version": 4,
+          "questions": [
+            {
+              "questionNumber": 1,
+              "text": "Vous identifiez une donnée incorrecte qui vous avantage. Que faites-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 19.35,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 45
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 66
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 30
+                }
+              ]
+            },
+            {
+              "questionNumber": 2,
+              "text": "Une règle semble ralentir le projet. Comment réagissez-vous ?",
+              "weight": 1.0,
+              "weightPercentOfSection": 16.13,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 50
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 66
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 37
+                }
+              ]
+            },
+            {
+              "questionNumber": 3,
+              "text": "Un engagement devient difficile à tenir. Quelle est votre approche ?",
+              "weight": 1.1,
+              "weightPercentOfSection": 17.74,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 55
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 66
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 44
+                }
+              ]
+            },
+            {
+              "questionNumber": 4,
+              "text": "Vous recevez une information confidentielle par erreur. Que faites-vous ?",
+              "weight": 0.9,
+              "weightPercentOfSection": 14.52,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 60
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 66
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 51
+                }
+              ]
+            },
+            {
+              "questionNumber": 5,
+              "text": "Un collègue propose un raccourci discutable. Comment répondez-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 19.35,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 65
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 66
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 58
+                }
+              ]
+            },
+            {
+              "questionNumber": 6,
+              "text": "Comment communiquez-vous une mauvaise nouvelle ?",
+              "weight": 0.8,
+              "weightPercentOfSection": 12.9,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 45
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 66
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 65
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "questions": [
+            {
+              "questionNumber": 1,
+              "text": "Vous identifiez une donnée incorrecte qui vous avantage. Que faites-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 19.35,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 45
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 63
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 30
+                }
+              ]
+            },
+            {
+              "questionNumber": 2,
+              "text": "Une règle semble ralentir le projet. Comment réagissez-vous ?",
+              "weight": 1.0,
+              "weightPercentOfSection": 16.13,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 50
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 63
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 37
+                }
+              ]
+            },
+            {
+              "questionNumber": 3,
+              "text": "Un engagement devient difficile à tenir. Quelle est votre approche ?",
+              "weight": 1.1,
+              "weightPercentOfSection": 17.74,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 55
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 63
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 44
+                }
+              ]
+            },
+            {
+              "questionNumber": 4,
+              "text": "Vous recevez une information confidentielle par erreur. Que faites-vous ?",
+              "weight": 0.9,
+              "weightPercentOfSection": 14.52,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 60
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 63
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 51
+                }
+              ]
+            },
+            {
+              "questionNumber": 5,
+              "text": "Un collègue propose un raccourci discutable. Comment répondez-vous ?",
+              "weight": 1.2,
+              "weightPercentOfSection": 19.35,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 65
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 63
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 58
+                }
+              ]
+            },
+            {
+              "questionNumber": 6,
+              "text": "Comment communiquez-vous une mauvaise nouvelle ?",
+              "weight": 0.8,
+              "weightPercentOfSection": 12.9,
+              "answers": [
+                {
+                  "option": "A",
+                  "text": "Je collecte les faits et je construis un plan clair.",
+                  "alignmentPercentage": 45
+                },
+                {
+                  "option": "B",
+                  "text": "Je prends une décision et je mesure rapidement son effet.",
+                  "alignmentPercentage": 100
+                },
+                {
+                  "option": "C",
+                  "text": "Je sollicite une validation avant d’avancer.",
+                  "alignmentPercentage": 63
+                },
+                {
+                  "option": "D",
+                  "text": "Je privilégie la solution la plus prudente.",
+                  "alignmentPercentage": 65
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

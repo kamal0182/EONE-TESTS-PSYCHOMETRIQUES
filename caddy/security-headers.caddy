@@ -1,0 +1,14 @@
+# En-têtes de sécurité (importés par le Caddyfile).
+header {
+	Strict-Transport-Security "max-age=31536000"
+	X-Content-Type-Options "nosniff"
+	X-Frame-Options "DENY"
+	# Le jeton du candidat est dans l'URL : il ne doit pas fuiter vers d'autres sites.
+	Referrer-Policy "strict-origin-when-cross-origin"
+	Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=()"
+	# Tout vient de l'application elle-même (aucun script, police ou image externe).
+	# Les scripts sont strictement limités aux fichiers de l'application ;
+	# 'unsafe-inline' n'est autorisé que pour les styles (variables du thème injectées).
+	Content-Security-Policy "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests"
+	-Server
+}

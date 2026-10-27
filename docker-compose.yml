@@ -1,0 +1,66 @@
+# Nom fixe du projet Docker : les volumes (base de données, certificats) gardent
+# le même nom quel que soit le dossier où se trouve ce fichier.
+name: eone-test
+
+# Toute la configuration est dans backend/.env (voir backend/.env.example).
+#
+#   Local (http://localhost:8080) :   docker compose up -d --build
+#   Serveur (HTTPS via Caddy)     :   docker compose --profile https up -d --build
+services:
+  postgres:
+    image: postgres:16-alpine
+    env_file: ./backend/.env
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    # Accessible uniquement depuis la machine elle-même (port 5433 pour ne pas gêner un autre Postgres).
+    ports:
+      - "127.0.0.1:5433:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    restart: unless-stopped
+
+  backend:
+    build: ./backend
+    env_file: ./backend/.env
+    environment:
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: "5432"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    # Accessible uniquement depuis la machine elle-même : sur le serveur,
+    # le public passe obligatoirement par Caddy (HTTPS).
+    ports:
+      - "127.0.0.1:8080:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+  caddy:
+    image: caddy:2
+    profiles: ["https"]
+    env_file: ./backend/.env
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    volumes:
+      - ./caddy:/etc/caddy:ro
+      - caddy-data:/data
+      - caddy-config:/config
+    depends_on:
+      - frontend
+    restart: unless-stopped
+
+volumes:
+  postgres-data:
+  # Certificats HTTPS : à conserver (évite de redemander un certificat à chaque redémarrage).
+  caddy-data:
+  caddy-config:
