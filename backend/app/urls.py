@@ -8,6 +8,7 @@ from app.views import (
     LogoutView,
     MeView,
     QuestionViewSet,
+    ResultatPdfView,
     TestCandidatViewSet,
     TestViewSet,
     VersionViewSet,
@@ -28,5 +29,7 @@ urlpatterns = [
     path("auth/login/", LoginView.as_view(), name="auth-login"),
     path("auth/logout/", LogoutView.as_view(), name="auth-logout"),
     path("auth/me/", MeView.as_view(), name="auth-me"),
+    # Lien signé vers le PDF des résultats (export Excel), sans connexion.
+    path("resultats-pdf/<str:signature>/", ResultatPdfView.as_view(), name="resultat-pdf"),
     path("", include(router.urls)),
 ]

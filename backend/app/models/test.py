@@ -19,7 +19,7 @@ class Test(models.Model):
 
     # Durée de validité du lien envoyé au candidat, et durée du chrono.
     LIEN_VALIDITE = timedelta(days=7)
-    DUREE_TEST = timedelta(minutes=15)
+    DUREE_TEST = timedelta(minutes=20)
     # Tolérance réseau : une réponse envoyée dans les dernières secondes reste acceptée.
     MARGE_REPONSE = timedelta(seconds=15)
 
@@ -36,6 +36,8 @@ class Test(models.Model):
     token_expires_at = models.DateTimeField(null=True, blank=True)
     sent_at = models.DateTimeField(null=True, blank=True)
     last_relance_at = models.DateTimeField(null=True, blank=True)
+    # Dernier envoi du lien par email (SMTP) ; vide si le lien a seulement été copié.
+    email_sent_at = models.DateTimeField(null=True, blank=True)
     relance_count = models.PositiveIntegerField(default=0)
     started_at = models.DateTimeField(null=True, blank=True)
     # Position du candidat dans le test (0 = première question). Seule la question

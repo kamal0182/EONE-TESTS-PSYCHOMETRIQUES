@@ -10,10 +10,14 @@ CVthèque, aux recruteurs ou à l'authentification Azure.
 - L'admin saisit **prénom, nom, email** puis clique sur **« Générer le test »** :
   une version est tirée au hasard pour chaque core value.
 - **Copier le lien** : crée le lien personnel du candidat (valable 7 jours) et le copie ;
-  l'admin le transmet lui-même (Outlook, WhatsApp…). **L'application n'envoie aucun email.**
+  l'admin le transmet lui-même (Outlook, WhatsApp…).
+- **Envoyer par email** : crée le lien si besoin et l'envoie au candidat via le serveur SMTP
+  configuré dans `backend/.env` (`EMAIL_HOST`, `EMAIL_PORT`, `EMAIL_HOST_USER`, `EMAIL_HOST_PASSWORD`,
+  `EMAIL_USE_TLS`/`EMAIL_USE_SSL`, `DEFAULT_FROM_EMAIL`). Si l'envoi échoue, rien n'est modifié.
+  Renvoyer l'email réutilise le même lien (et réactive pour 7 jours un lien expiré).
   **Prolonger** : même lien, validité repoussée de 7 jours (tant que le test n'a pas commencé).
 - Le candidat ouvre `/passer-test?token=…` (aucune connexion requise) et dispose de
-  **15 minutes**, sans retour en arrière. Le test se clôture automatiquement à la fin du temps.
+  **20 minutes**, sans retour en arrière. Le test se clôture automatiquement à la fin du temps.
 - **Voir les résultats** : score global pondéré, vue radar par core value et détail des réponses.
 - Statuts : `À envoyer` → `Envoyé` (lien créé) → `En cours` → `Répondu`.
 
@@ -188,8 +192,12 @@ Pour changer le mot de passe admin :
 | POST | `/api/auth/login/` · `/api/auth/logout/` · GET `/api/auth/me/` | — / admin |
 | CRUD | `/api/core-values/`, `/api/core-value-versions/?core_value_id=`, `/api/core-value-questions/?version_id=`, `/api/core-value-answers/?question_id=` | admin |
 | GET / POST | `/api/tests-psychometriques/` (POST `{prenom, nom, email}` = générer) | admin |
+| POST | `/api/tests-psychometriques/importer/` (multipart `file` : .xlsx ou .csv, colonnes Prénom / Nom / Email) = un test par candidat | admin |
 | GET / DELETE | `/api/tests-psychometriques/{id}/` (détail + résultats) | admin |
-| POST | `/api/tests-psychometriques/{id}/lien/` (créer le lien) · `.../prolonger/` (+7 jours) | admin |
+| POST | `/api/tests-psychometriques/{id}/lien/` (créer le lien) · `.../prolonger/` (+7 jours) · `.../envoyer-email/` (envoi SMTP) | admin |
+| POST | `/api/tests-psychometriques/envoyer-emails/` `{ids: [...]}` (50 max) : envoi groupé, une seule connexion SMTP | admin |
+| GET | `/api/tests-psychometriques/exporter/` : Excel des tests au statut Répondu (Nom, Prénom, Email, Score, Date, lien PDF) | admin |
+| GET | `/api/resultats-pdf/{signature}/` : PDF des résultats (lien signé de l'export, valable `EXPORT_LINK_DAYS` jours) | public (lien signé) |
 
 Les appels admin portent l'en-tête `Authorization: Bearer <jeton>` (jeton renvoyé par `/api/auth/login/`).
 | GET | `/api/test-candidat/{token}/` | public (jeton) |
@@ -202,7 +210,7 @@ Les appels admin portent l'en-tête `Authorization: Bearer <jeton>` (jeton renvo
 - Authentification : compte admin Django avec jeton DRF, à la place de JWT/Azure AD.
 - Base PostgreSQL dédiée (`eone_test`), séparée de celle d'ENOSISAPP. Les données de tests
   existantes dans ENOSISAPP n'ont pas été migrées.
-- Pas d'envoi d'email : l'admin copie le lien et le transmet lui-même au candidat.
+- Envoi d'email par SMTP (bouton « Envoyer par email »), ou copie du lien par l'admin.
 - Questions et réponses gardent un ordre d'affichage stable (champ `created_at`).
   L'ordre A/B/C/D vu par le candidat est donc toujours l'ordre de saisie.
 - Ajouts : suppression d'un test et bouton « Copier le lien ».

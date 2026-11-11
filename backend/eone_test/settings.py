@@ -84,7 +84,7 @@ REST_FRAMEWORK = {
     "DEFAULT_PERMISSION_CLASSES": ["rest_framework.permissions.IsAuthenticated"],
     "DEFAULT_RENDERER_CLASSES": ["rest_framework.renderers.JSONRenderer"],
     "EXCEPTION_HANDLER": "app.exceptions.exception_handler",
-    "DEFAULT_THROTTLE_RATES": {"login": "10/min", "candidat": "60/min"},
+    "DEFAULT_THROTTLE_RATES": {"login": "10/min", "candidat": "60/min", "resultat_pdf": "30/min"},
     # Proxys devant Django (Caddy -> nginx) : l'IP du client est lue à la bonne
     # position de X-Forwarded-For, ce qui empêche de contourner la limite de
     # tentatives de connexion en envoyant un faux en-tête.
@@ -105,6 +105,30 @@ TOKEN_TTL = timedelta(hours=int(os.environ.get("TOKEN_TTL_HOURS", "12")))
 
 # Lien transmis au candidat : {FRONTEND_URL}/passer-test?token=...
 FRONTEND_URL = os.environ.get("FRONTEND_URL", "http://localhost:8080")
+
+# Envoi du lien au candidat par email (SMTP). Sans EMAIL_HOST, le bouton
+# « Envoyer par email » renvoie une erreur ; « Copier le lien » reste disponible.
+EMAIL_BACKEND = os.environ.get(
+    "EMAIL_BACKEND", "django.core.mail.backends.smtp.EmailBackend"
+)
+EMAIL_HOST = os.environ.get("EMAIL_HOST", "")
+EMAIL_PORT = int(os.environ.get("EMAIL_PORT", "587"))
+EMAIL_HOST_USER = os.environ.get("EMAIL_HOST_USER", "")
+EMAIL_HOST_PASSWORD = os.environ.get("EMAIL_HOST_PASSWORD", "")
+EMAIL_USE_TLS = env_bool("EMAIL_USE_TLS", True)
+EMAIL_USE_SSL = env_bool("EMAIL_USE_SSL", False)
+if EMAIL_USE_TLS and EMAIL_USE_SSL:
+    raise ImproperlyConfigured(
+        "EMAIL_USE_TLS (port 587) et EMAIL_USE_SSL (port 465) ne peuvent pas être activés ensemble."
+    )
+EMAIL_TIMEOUT = int(os.environ.get("EMAIL_TIMEOUT", "20"))
+DEFAULT_FROM_EMAIL = os.environ.get("DEFAULT_FROM_EMAIL") or EMAIL_HOST_USER
+# Copie (CC) de chaque email envoyé au candidat (adresses séparées par des virgules).
+# Le candidat voit ces adresses.
+EMAIL_CC = env_list("EMAIL_CC")
+
+# Liens vers le PDF des résultats dans l'export Excel : valables N jours.
+EXPORT_LINK_TTL = timedelta(days=int(os.environ.get("EXPORT_LINK_DAYS", "30")))
 
 LOGGING = {
     "version": 1,

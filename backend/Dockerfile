@@ -12,4 +12,4 @@ COPY . .
 
 EXPOSE 8000
 
-CMD ["sh", "-c", "python manage.py migrate --noinput && python manage.py createcachetable && python manage.py seed_core_values_bank && python manage.py ensure_admin && gunicorn eone_test.wsgi:application --bind 0.0.0.0:8000 --workers 2"]
+CMD ["sh", "-c", "python manage.py migrate --noinput && python manage.py createcachetable && python manage.py seed_core_values_bank && python manage.py ensure_admin && gunicorn eone_test.wsgi:application --bind 0.0.0.0:8000 --workers 2 --timeout 120"]

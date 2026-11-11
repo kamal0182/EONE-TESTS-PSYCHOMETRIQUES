@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import axios from 'axios'
 import Button from '../../atoms/Button.jsx'
 import Icon from '../../atoms/Icon.jsx'
@@ -21,6 +21,15 @@ const HEADERS = [
 ]
 
 const EMPTY_CANDIDAT = { prenom: '', nom: '', email: '' }
+
+// Envoi groupé : la sélection part par lots (une requête et une connexion SMTP
+// par lot) pour rester loin du délai maximal d'une requête.
+const EMAIL_BATCH_SIZE = 20
+
+// Seuls les tests non commencés peuvent recevoir le lien par email.
+function canReceiveEmail(test) {
+  return test.statut === 'a_envoyer' || test.statut === 'envoye'
+}
 
 function getErrorMessage(error, fallback) {
   const data = error?.response?.data
@@ -150,6 +159,14 @@ export default function TestsPsychometriquesPage({ user, roleTitle }) {
   const [generateError, setGenerateError] = useState('')
   const [generating, setGenerating] = useState(false)
   const [toDelete, setToDelete] = useState(null)
+  const [importing, setImporting] = useState(false)
+  const [exporting, setExporting] = useState(false)
+  // Détail des lignes ignorées (import) ou des emails non envoyés (envoi groupé).
+  const [report, setReport] = useState(null)
+  const fileInputRef = useRef(null)
+  const [selectedIds, setSelectedIds] = useState(() => new Set())
+  const [confirmBulk, setConfirmBulk] = useState(false)
+  const [bulkProgress, setBulkProgress] = useState(null)
 
   const authHeaders = useMemo(
     () => (user?.token ? { Authorization: `Bearer ${user.token}` } : {}),
@@ -190,6 +207,95 @@ export default function TestsPsychometriquesPage({ user, roleTitle }) {
     ].some((value) => String(value || '').toLocaleLowerCase('fr').includes(term)))
   }, [searchTerm, tests])
 
+  // Sélection effective : un test qui a commencé entre-temps n'est plus envoyable.
+  const selectedTests = useMemo(
+    () => tests.filter((test) => selectedIds.has(test.id) && canReceiveEmail(test)),
+    [selectedIds, tests],
+  )
+  const selectableVisible = useMemo(() => filteredTests.filter(canReceiveEmail), [filteredTests])
+  const allVisibleSelected = selectableVisible.length > 0
+    && selectableVisible.every((test) => selectedIds.has(test.id))
+  const bulkSending = bulkProgress !== null
+
+  function toggleSelected(testId) {
+    setSelectedIds((current) => {
+      const next = new Set(current)
+      if (next.has(testId)) next.delete(testId)
+      else next.add(testId)
+      return next
+    })
+  }
+
+  // Sélectionne (ou désélectionne) tous les tests envoyables affichés, recherche comprise.
+  function toggleAllVisible() {
+    setSelectedIds((current) => {
+      const next = new Set(current)
+      selectableVisible.forEach((test) => {
+        if (allVisibleSelected) next.delete(test.id)
+        else next.add(test.id)
+      })
+      return next
+    })
+  }
+
+  /**
+   * Envoi groupé : génère le lien (si besoin) et l'envoie par email à chaque
+   * candidat sélectionné. Les lots partent l'un après l'autre ; le tableau et
+   * la progression sont mis à jour après chaque lot.
+   */
+  async function sendBulkEmails() {
+    const targets = selectedTests
+    setConfirmBulk(false)
+    setError('')
+    setSuccess('')
+    setReport(null)
+    setBulkProgress({ done: 0, total: targets.length })
+    let sentCount = 0
+    const rejected = []
+    let stopError = ''
+    for (let start = 0; start < targets.length; start += EMAIL_BATCH_SIZE) {
+      const batch = targets.slice(start, start + EMAIL_BATCH_SIZE)
+      try {
+        const response = await axios.post(
+          buildApiUrl('/api/tests-psychometriques/envoyer-emails/'),
+          { ids: batch.map((test) => test.id) },
+          { headers: authHeaders },
+        )
+        const sent = response.data?.sent || []
+        const updated = new Map(sent.map((test) => [test.id, test]))
+        setTests((previous) => previous.map((test) => updated.get(test.id) || test))
+        setSelectedIds((current) => {
+          const next = new Set(current)
+          sent.forEach((test) => next.delete(test.id))
+          return next
+        })
+        sentCount += sent.length
+        rejected.push(...(response.data?.rejected || []))
+      } catch (requestError) {
+        // Erreur globale (SMTP injoignable, session expirée…) : inutile de continuer.
+        stopError = getErrorMessage(requestError, 'Impossible d’envoyer les emails.')
+        break
+      }
+      setBulkProgress({ done: Math.min(start + batch.length, targets.length), total: targets.length })
+    }
+    setBulkProgress(null)
+
+    if (rejected.length) {
+      setReport({
+        title: 'Emails non envoyés',
+        lines: rejected.map((item) => `${item.email || item.id} : ${item.message}`),
+      })
+    }
+    if (sentCount) {
+      setSuccess(`${sentCount} email(s) envoyé(s) avec le lien du test.`)
+    }
+    if (stopError) {
+      setError(`${stopError} Envoi interrompu : ${targets.length - sentCount - rejected.length} candidat(s) non traité(s), toujours sélectionné(s).`)
+    } else if (!sentCount) {
+      setError('Aucun email envoyé.')
+    }
+  }
+
   function openGenerate() {
     setGenerateError('')
     setShowGenerate(true)
@@ -214,6 +320,88 @@ export default function TestsPsychometriquesPage({ user, roleTitle }) {
       setGenerateError(getErrorMessage(requestError, 'Impossible de générer le test.'))
     } finally {
       setGenerating(false)
+    }
+  }
+
+  /**
+   * Import d'un fichier Excel/CSV (colonnes Prénom, Nom, Email) : le serveur
+   * génère un test par candidat et renvoie les lignes ignorées avec la raison.
+   */
+  async function importFile(event) {
+    const file = event.target.files?.[0]
+    // Permet de réimporter le même fichier après correction.
+    event.target.value = ''
+    if (!file) return
+    setError('')
+    setSuccess('')
+    setReport(null)
+    setImporting(true)
+    const formData = new FormData()
+    formData.append('file', file)
+    try {
+      const response = await axios.post(
+        buildApiUrl('/api/tests-psychometriques/importer/'),
+        formData,
+        { headers: authHeaders },
+      )
+      const created = response.data?.created || []
+      const rejected = response.data?.rejected || []
+      setTests((previous) => [...created, ...previous])
+      if (rejected.length) {
+        setReport({
+          title: 'Lignes ignorées lors de l’import',
+          lines: rejected.map((item) => `Ligne ${item.ligne}${item.email ? ` (${item.email})` : ''} : ${item.message}`),
+        })
+      }
+      const ignored = rejected.length ? ` ${rejected.length} ligne(s) ignorée(s), voir le détail ci-dessous.` : ''
+      if (created.length) {
+        setSuccess(`${created.length} candidat(s) importé(s) : un test a été généré pour chacun.${ignored}`)
+      } else {
+        setError(`Aucun candidat importé.${ignored}`)
+      }
+    } catch (requestError) {
+      setError(getErrorMessage(requestError, 'Impossible d’importer le fichier.'))
+    } finally {
+      setImporting(false)
+    }
+  }
+
+  /**
+   * Télécharge le fichier Excel de tous les tests, généré par le serveur
+   * (Nom, Prénom, Email, Statut, Score, Date et lien vers le PDF des résultats).
+   */
+  async function exportExcel() {
+    setError('')
+    setSuccess('')
+    setExporting(true)
+    try {
+      const response = await axios.get(
+        buildApiUrl('/api/tests-psychometriques/exporter/'),
+        { headers: authHeaders, responseType: 'blob' },
+      )
+      const disposition = response.headers['content-disposition'] || ''
+      const filename = /filename="([^"]+)"/.exec(disposition)?.[1] || 'tests-psychometriques.xlsx'
+      const url = URL.createObjectURL(response.data)
+      const link = document.createElement('a')
+      link.href = url
+      link.download = filename
+      document.body.appendChild(link)
+      link.click()
+      link.remove()
+      URL.revokeObjectURL(url)
+      setSuccess('Export Excel téléchargé : cliquez sur « Ouvrir le PDF » pour voir les résultats d’un candidat.')
+    } catch (requestError) {
+      // En cas d'erreur, la réponse (JSON) arrive elle aussi sous forme de Blob.
+      let message = 'Impossible d’exporter les tests.'
+      try {
+        const detail = JSON.parse(await requestError?.response?.data?.text())?.detail
+        if (typeof detail === 'string' && detail) message = detail
+      } catch {
+        // Réponse illisible : message par défaut.
+      }
+      setError(message)
+    } finally {
+      setExporting(false)
     }
   }
 
@@ -254,6 +442,27 @@ export default function TestsPsychometriquesPage({ user, roleTitle }) {
     }
   }
 
+  // Envoie le lien au candidat par email (SMTP) ; le serveur crée le lien si besoin.
+  async function sendEmail(test) {
+    setSendingId(test.id)
+    setError('')
+    setSuccess('')
+    try {
+      const response = await axios.post(
+        buildApiUrl(`/api/tests-psychometriques/${test.id}/envoyer-email/`),
+        {},
+        { headers: authHeaders },
+      )
+      const updated = response.data
+      setTests((previous) => previous.map((item) => (item.id === test.id ? updated : item)))
+      setSuccess(`Email envoyé à ${updated.email} (lien valable jusqu’au ${formatDate(updated.token_expires_at)}).`)
+    } catch (requestError) {
+      setError(getErrorMessage(requestError, 'Impossible d’envoyer l’email.'))
+    } finally {
+      setSendingId('')
+    }
+  }
+
   async function confirmDelete() {
     setSendingId(toDelete.id)
     setError('')
@@ -286,6 +495,9 @@ export default function TestsPsychometriquesPage({ user, roleTitle }) {
       <>
         <span className={badge.className}>{badge.label}</span>
         {detail ? <div className="test-list__statut-detail">{detail}</div> : null}
+        {test.email_sent_at ? (
+          <div className="test-list__statut-detail">Email envoyé le {formatDate(test.email_sent_at)}</div>
+        ) : null}
       </>
     )
   }
@@ -339,6 +551,19 @@ export default function TestsPsychometriquesPage({ user, roleTitle }) {
     return (
       <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
         {renderMainAction(test)}
+        {test.statut === 'a_envoyer' || test.statut === 'envoye' ? (
+          <Button
+            variant="secondary"
+            size="sm"
+            className="test-list__action"
+            icon={<Icon name="mail" size={14} />}
+            disabled={busy}
+            title={`Envoyer le lien à ${test.email} par email`}
+            onClick={() => sendEmail(test)}
+          >
+            {busy ? 'Envoi…' : test.email_sent_at ? 'Renvoyer l’email' : 'Envoyer par email'}
+          </Button>
+        ) : null}
         {test.statut === 'envoye' ? (
           <Button
             variant="secondary"
@@ -365,9 +590,38 @@ export default function TestsPsychometriquesPage({ user, roleTitle }) {
     )
   }
 
+  const headers = [
+    <input
+      key="select-all"
+      type="checkbox"
+      className="test-list__checkbox"
+      checked={allVisibleSelected}
+      disabled={!selectableVisible.length || bulkSending}
+      onChange={toggleAllVisible}
+      aria-label="Sélectionner tous les tests non commencés"
+      title="Sélectionner tous les tests non commencés"
+    />,
+    ...HEADERS,
+  ]
+
   const rows = filteredTests.map((test) => ({
     key: test.id,
+    className: selectedIds.has(test.id) && canReceiveEmail(test) ? 'test-list__row--selected' : '',
     cells: [
+      {
+        className: 'test-list__select-cell',
+        content: (
+          <input
+            type="checkbox"
+            className="test-list__checkbox"
+            checked={selectedIds.has(test.id) && canReceiveEmail(test)}
+            disabled={!canReceiveEmail(test) || bulkSending}
+            onChange={() => toggleSelected(test.id)}
+            aria-label={`Sélectionner ${test.prenom} ${test.nom}`}
+            title={canReceiveEmail(test) ? '' : 'Test déjà commencé'}
+          />
+        ),
+      },
       {
         content: (
           <>
@@ -401,9 +655,38 @@ export default function TestsPsychometriquesPage({ user, roleTitle }) {
       cardIcon={<Icon name="folder" size={18} />}
       cardTitle="Tests psychométriques"
       action={(
-        <Button size="sm" variant="primary" icon={<Icon name="plus" size={14} />} onClick={openGenerate}>
-          Générer un test
-        </Button>
+        <div className="test-list__header-actions">
+          <input
+            ref={fileInputRef}
+            type="file"
+            accept=".xlsx,.csv"
+            hidden
+            onChange={importFile}
+          />
+          <Button
+            size="sm"
+            variant="secondary"
+            icon={<Icon name="export" size={14} />}
+            disabled={importing}
+            title="Fichier Excel (.xlsx) ou CSV avec les colonnes Prénom, Nom et Email"
+            onClick={() => fileInputRef.current?.click()}
+          >
+            {importing ? 'Import…' : 'Importer'}
+          </Button>
+          <Button
+            size="sm"
+            variant="secondary"
+            icon={<Icon name="file" size={14} />}
+            disabled={exporting || !tests.some((test) => test.statut === 'repondu')}
+            title="Télécharger en Excel les tests terminés (statut Répondu), avec le lien vers le PDF des résultats"
+            onClick={exportExcel}
+          >
+            {exporting ? 'Export…' : 'Exporter tout'}
+          </Button>
+          <Button size="sm" variant="primary" icon={<Icon name="plus" size={14} />} onClick={openGenerate}>
+            Générer un test
+          </Button>
+        </div>
       )}
       beforeTable={(
         <MarketingHeaderFilters
@@ -416,15 +699,66 @@ export default function TestsPsychometriquesPage({ user, roleTitle }) {
     >
       <AlertMessage message={error} />
       <AlertMessage message={success} type="success" />
+      {report ? (
+        <div className="import-report">
+          <div className="import-report__header">
+            <strong>{report.title}</strong>
+            <button
+              type="button"
+              className="icon-button"
+              onClick={() => setReport(null)}
+              aria-label="Fermer le détail"
+            >
+              <Icon name="close" size={14} />
+            </button>
+          </div>
+          <ul className="import-report__list">
+            {report.lines.map((line, index) => (
+              <li key={index}>{line}</li>
+            ))}
+          </ul>
+        </div>
+      ) : null}
+      {selectedTests.length || bulkSending ? (
+        <div className="bulk-bar">
+          <span className="bulk-bar__count">
+            {bulkSending
+              ? `Envoi en cours… ${bulkProgress.done} / ${bulkProgress.total}`
+              : `${selectedTests.length} candidat(s) sélectionné(s)`}
+          </span>
+          {bulkSending ? (
+            <div className="bulk-bar__track">
+              <div
+                className="bulk-bar__progress"
+                style={{ width: `${bulkProgress.total ? (bulkProgress.done / bulkProgress.total) * 100 : 0}%` }}
+              />
+            </div>
+          ) : (
+            <div className="bulk-bar__actions">
+              <Button variant="secondary" size="sm" onClick={() => setSelectedIds(new Set())}>
+                Désélectionner
+              </Button>
+              <Button
+                variant="primary"
+                size="sm"
+                icon={<Icon name="mail" size={14} />}
+                onClick={() => setConfirmBulk(true)}
+              >
+                Envoyer par email ({selectedTests.length})
+              </Button>
+            </div>
+          )}
+        </div>
+      ) : null}
       <DataTable
-        headers={HEADERS}
+        headers={headers}
         rows={rows}
         emptyState={{
           icon: '📄',
           title: loading ? 'Chargement...' : 'Aucun test',
           text: loading
             ? 'Chargement des tests psychométriques.'
-            : 'Cliquez sur « Générer un test » pour créer le test d’un candidat.',
+            : 'Cliquez sur « Générer un test » ou « Importer » pour créer les tests des candidats.',
         }}
       />
       {showGenerate ? (
@@ -440,6 +774,16 @@ export default function TestsPsychometriquesPage({ user, roleTitle }) {
           testId={resultsTestId}
           authHeaders={authHeaders}
           onClose={() => setResultsTestId('')}
+        />
+      ) : null}
+      {confirmBulk ? (
+        <ConfirmDialog
+          title="Envoyer les liens par email"
+          message={`Envoyer le lien du test par email à ${selectedTests.length} candidat(s) ? Les liens manquants seront générés (valables 7 jours).`}
+          confirmLabel="Envoyer"
+          confirmVariant="primary"
+          onCancel={() => setConfirmBulk(false)}
+          onConfirm={sendBulkEmails}
         />
       ) : null}
       {toDelete ? (

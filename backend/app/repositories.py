@@ -107,3 +107,13 @@ class TestRepository(CrudRepository):
 
     def list_all(self):
         return list(self.queryset().order_by("-created_at"))
+
+    def get_many(self, ids):
+        return list(self.queryset().filter(id__in=ids).order_by("-created_at"))
+
+    def bulk_update(self, tests, fields):
+        """Une seule requête UPDATE pour tous les tests."""
+        Test.objects.bulk_update(tests, fields)
+
+    def emails(self):
+        return Test.objects.values_list("email", flat=True)
