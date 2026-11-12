@@ -8,7 +8,12 @@ import InputField from './molecules/InputField.jsx'
 import AuthLayout from './templates/AuthLayout.jsx'
 
 function getErrorMessage(error) {
-  if (!error?.response) return "Service d'authentification indisponible."
+  if (!error?.response || error.response.status >= 500) {
+    return "Service d'authentification indisponible. Réessayez dans quelques instants."
+  }
+  if (error.response.status === 429) {
+    return 'Trop de tentatives. Patientez une minute avant de réessayer.'
+  }
   const data = error.response.data
   if (typeof data?.detail === 'string') return data.detail
   return 'Identifiant ou mot de passe incorrect.'
